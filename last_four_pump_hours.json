@@ -1,0 +1,13 @@
+[
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 57600000, 
+    "_description": "BasalProfileStart 2016-07-02T21:31:00 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-07-02T21:31:00", 
+    "_body": "206400", 
+    "profile_index": 2, 
+    "_head": "7b02", 
+    "rate": 2.5, 
+    "_date": "40df150210"
+  }
+]
