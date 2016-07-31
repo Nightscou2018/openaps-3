@@ -1,5 +1,45 @@
 [
   {
+    "programmed": 2.15, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-31T00:29:52 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-31T00:29:52", 
+    "_body": "", 
+    "_head": "0100560056000000", 
+    "amount": 2.15, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "74dd207f10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 114, 
+    "bg_target_high": 100, 
+    "_description": "BolusWizard 2016-07-31T00:29:52 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-31T00:29:52", 
+    "_body": "205000a04b64060050000000005664", 
+    "_head": "5b72", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.15, 
+    "_date": "74dd007f10", 
+    "bolus_estimate": 2.15, 
+    "bg_target_low": 100, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 2.0, 
+    "carb_input": 32, 
+    "sensitivity": 75
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-07-31T00:29:37 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-07-31T00:29:37", 
+    "_body": "", 
+    "_head": "0a72", 
+    "amount": 114, 
+    "_date": "65dd201f10"
+  }, 
+  {
     "_type": "Sara6E", 
     "_description": "Sara6E 2016-07-31T00:00:00 head[1], body[49] op[0x6e]", 
     "timestamp": "2016-07-31T00:00:00", 
@@ -27,310 +67,5 @@
     "_head": "7b00", 
     "rate": 2.7, 
     "_date": "40c0001f10"
-  }, 
-  {
-    "_type": "questionable5e", 
-    "_description": "questionable5e 2016-07-30T20:28:31 head[2], body[0] op[0x5e]", 
-    "timestamp": "2016-07-30T20:28:31", 
-    "_body": "", 
-    "_head": "5e00", 
-    "_date": "5fdc141e10"
-  }, 
-  {
-    "_type": "questionable24", 
-    "_description": "questionable24 2016-07-30T20:28:22 head[2], body[0] op[0x24]", 
-    "timestamp": "2016-07-30T20:28:22", 
-    "_body": "", 
-    "_head": "240c", 
-    "_date": "56dc941e10"
-  }, 
-  {
-    "_type": "OldBolusWizardChange", 
-    "stale": {
-      "insulin_sensitivies": [
-        {
-          "i": 0, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 1, 
-          "_offset": 0, 
-          "sensitivity": 50, 
-          "offset": 0
-        }, 
-        {
-          "i": 2, 
-          "_offset": 16, 
-          "sensitivity": 25, 
-          "offset": 480
-        }, 
-        {
-          "i": 3, 
-          "_offset": 44, 
-          "sensitivity": 35, 
-          "offset": 1320
-        }, 
-        {
-          "i": 4, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 5, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 6, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 7, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }
-      ], 
-      "_head": "0b00010101 0b00010011", 
-      "head": "1513", 
-      "bg_targets": [
-        {
-          "high": 115, 
-          "_offset": 0, 
-          "low": 115, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }
-      ], 
-      "carb_ratios": [
-        {
-          "q": 0, 
-          "start": "00:00:00", 
-          "r": 30, 
-          "ratio": 3.0, 
-          "offset": 0, 
-          "i": 0, 
-          "x": 0
-        }
-      ]
-    }, 
-    "_description": "OldBolusWizardChange 2016-07-30T20:27:36 head[2], body[137] op[0x5a]", 
-    "timestamp": "2016-07-30T20:27:36", 
-    "_body": "151300001e0000000000000000000000000000000000000000000000003210192c230000000000000000000000737300000000000000000000000000000000000000000025110000a01600b40000000000000000000000000000000000000000004b000000000000000000000000000000646400000000000000000000000000000000000000000033", 
-    "changed": {
-      "insulin_sensitivies": [
-        {
-          "i": 0, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 1, 
-          "_offset": 0, 
-          "sensitivity": 75, 
-          "offset": 0
-        }, 
-        {
-          "i": 2, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 3, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 4, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 5, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 6, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }, 
-        {
-          "i": 7, 
-          "_offset": 0, 
-          "sensitivity": 0, 
-          "offset": 0
-        }
-      ], 
-      "_head": "0b00100101 0b00010001", 
-      "head": "2511", 
-      "bg_targets": [
-        {
-          "high": 100, 
-          "_offset": 0, 
-          "low": 100, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }, 
-        {
-          "high": 0, 
-          "_offset": 0, 
-          "low": 0, 
-          "offset": 0
-        }
-      ], 
-      "carb_ratios": [
-        {
-          "q": 0, 
-          "start": "00:00:00", 
-          "r": 160, 
-          "ratio": 16.0, 
-          "offset": 0, 
-          "i": 0, 
-          "x": 0
-        }, 
-        {
-          "q": 0, 
-          "start": "11:00:00", 
-          "r": 180, 
-          "ratio": 18.0, 
-          "offset": 660, 
-          "i": 22, 
-          "x": 1
-        }
-      ]
-    }, 
-    "_head": "5a0f", 
-    "tail": 51, 
-    "_date": "64db141e10"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "fixed", 
-    "_description": "Prime 2016-07-30T20:23:22 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-07-30T20:23:22", 
-    "_body": "", 
-    "fixed": 0.3, 
-    "_head": "0300030003", 
-    "amount": 0.3, 
-    "_date": "56d7141e10"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "offset": 57600000, 
-    "_description": "BasalProfileStart 2016-07-30T20:23:32 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-07-30T20:23:32", 
-    "_body": "206400", 
-    "profile_index": 2, 
-    "_head": "7b02", 
-    "rate": 2.5, 
-    "_date": "60d7141e10"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "manual", 
-    "_description": "Prime 2016-07-30T20:22:59 head[5], body[0] op[0x03]", 
-    "timestamp": "2016-07-30T20:22:59", 
-    "_body": "", 
-    "fixed": 0.0, 
-    "_head": "030000001d", 
-    "amount": 2.9, 
-    "_date": "7bd6341e10"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-07-30T20:22:10 head[2], body[0] op[0x21]", 
-    "timestamp": "2016-07-30T20:22:10", 
-    "_body": "", 
-    "_head": "2100", 
-    "_date": "4ad6141e10"
   }
 ]
