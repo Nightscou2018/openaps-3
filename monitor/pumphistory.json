@@ -1,71 +1,43 @@
 [
   {
-    "programmed": 2.15, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-07-31T00:29:52 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-07-31T00:29:52", 
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2016-08-08T20:46:47 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-08-08T20:46:47", 
     "_body": "", 
-    "_head": "0100560056000000", 
-    "amount": 2.15, 
-    "unabsorbed": 0.0, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "74dd207f10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 114, 
-    "bg_target_high": 100, 
-    "_description": "BolusWizard 2016-07-31T00:29:52 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-07-31T00:29:52", 
-    "_body": "205000a04b64060050000000005664", 
-    "_head": "5b72", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.15, 
-    "_date": "74dd007f10", 
-    "bolus_estimate": 2.15, 
-    "bg_target_low": 100, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 2.0, 
-    "carb_input": 32, 
-    "sensitivity": 75
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-07-31T00:29:37 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-07-31T00:29:37", 
-    "_body": "", 
-    "_head": "0a72", 
-    "amount": 114, 
-    "_date": "65dd201f10"
-  }, 
-  {
-    "_type": "Sara6E", 
-    "_description": "Sara6E 2016-07-31T00:00:00 head[1], body[49] op[0x6e]", 
-    "timestamp": "2016-07-31T00:00:00", 
-    "_body": "050000000000000001680168640000000000000000000000000000000000600000000000000000000000000040000000a0", 
-    "valid_date": "2016-07-30", 
-    "_head": "6e", 
-    "_date": "7e90"
-  }, 
-  {
-    "_type": "ResultDailyTotal", 
-    "_description": "ResultDailyTotal 2016-07-31T00:00:00 head[5], body[3] op[0x07]", 
-    "timestamp": "2016-07-31T00:00:00", 
-    "_body": "001614", 
-    "valid_date": "2016-07-30", 
-    "_head": "0700000168", 
-    "_date": "7e90"
+    "fixed": 0.3, 
+    "_head": "0300030003", 
+    "amount": 0.3, 
+    "_date": "af2e140810"
   }, 
   {
     "_type": "BasalProfileStart", 
     "offset": 0, 
-    "_description": "BasalProfileStart 2016-07-31T00:00:00 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-07-31T00:00:00", 
-    "_body": "006c00", 
+    "_description": "BasalProfileStart 2016-08-08T20:46:57 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-08-08T20:46:57", 
+    "_body": "001000", 
     "profile_index": 0, 
     "_head": "7b00", 
-    "rate": 2.7, 
-    "_date": "40c0001f10"
+    "rate": 0.4, 
+    "_date": "b92e140810"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2016-08-08T20:46:27 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-08-08T20:46:27", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "0300000010", 
+    "amount": 1.6, 
+    "_date": "9b2e340810"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-08-08T20:46:07 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-08-08T20:46:07", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "872e140810"
   }
 ]
