@@ -1,7 +1,7 @@
 {
   "low_reservoir_warn_point": 50, 
   "keypad_lock_status": 0, 
-  "maxBasal": 34.0, 
+  "maxBasal": 10.0, 
   "temp_basal": {
     "percent": 100, 
     "type": "Percent"
@@ -17,7 +17,7 @@
   "rf_enable": false, 
   "auto_off_duration_hrs": 12, 
   "block_enable": false, 
-  "timeformat": 80, 
+  "timeformat": 144, 
   "insulin_action_curve": 3, 
   "audio_bolus_size": 2.0, 
   "selected_pattern": 0, 
