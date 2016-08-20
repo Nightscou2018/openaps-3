@@ -1,13 +1,30 @@
 {
-  "bg": 89, 
+  "bg": 159, 
   "temp": "absolute", 
-  "snoozeBG": -39, 
+  "snoozeBG": 159, 
   "recieved": true, 
-  "rate": 0.0, 
-  "reason": "Eventual BG -39<100, Snooze BG -39, setting -5.56U/hr", 
-  "eventualBG": -39, 
-  "timestamp": "2016-08-20T14:10:31.583922", 
+  "predBGs": {
+    "IOB": [
+      159, 
+      159, 
+      159, 
+      159, 
+      159, 
+      159, 
+      159, 
+      159, 
+      159, 
+      159, 
+      159, 
+      159, 
+      159
+    ]
+  }, 
+  "rate": 1.175, 
+  "reason": "COB: undefined, Dev: 0, BGI: 0, ISF: 75, Target: 100; Eventual BG 159 >= 100, adj. req. rate: 2 to maxSafeBasal: 1.2000000000000002, no temp, setting 1.2U/hr", 
+  "eventualBG": 159, 
+  "timestamp": "2016-08-20T17:31:08.498780", 
   "duration": 30, 
-  "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 100 Deviation: 22 BGI: -21.3", 
-  "tick": "+19"
+  "tick": "+0", 
+  "IOB": 0
 }
