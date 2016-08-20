@@ -70,17 +70,5 @@
     "device": "openaps://cgm", 
     "type": "sgv", 
     "glucose": 164
-  }, 
-  {
-    "trend_arrow": "DOUBLE_UP", 
-    "system_time": "2016-08-20T21:18:45", 
-    "direction": "DoubleUp", 
-    "sgv": 148, 
-    "display_time": "2016-08-20T14:19:41", 
-    "date": 1471720781000.0, 
-    "dateString": "2016-08-20T14:19:41", 
-    "device": "openaps://cgm", 
-    "type": "sgv", 
-    "glucose": 148
   }
 ]
