@@ -1,1 +1,1 @@
-{"temp":"absolute","bg":89,"tick":"+19","eventualBG":-39,"snoozeBG":-39,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 100 Deviation: 22 BGI: -21.3","reason":"Eventual BG -39<100, Snooze BG -39, setting -5.56U/hr","duration":30,"rate":0}
+{"reason":"BG data is too old, or clock set incorrectly.  Your CGM time is Sat Aug 20 2016 14:49:25 GMT-0500 (CDT) but your system time is Sat Aug 20 2016 15:41:02 GMT-0500 (CDT)"}
