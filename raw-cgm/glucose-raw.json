@@ -250,17 +250,5 @@
     "device": "openaps://cgm", 
     "type": "sgv", 
     "glucose": 106
-  }, 
-  {
-    "trend_arrow": "FLAT", 
-    "system_time": "2016-08-21T13:28:29", 
-    "direction": "Flat", 
-    "sgv": 104, 
-    "display_time": "2016-08-21T06:29:25", 
-    "date": 1471778965000.0, 
-    "dateString": "2016-08-21T06:29:25", 
-    "device": "openaps://cgm", 
-    "type": "sgv", 
-    "glucose": 104
   }
 ]
