@@ -1,0 +1,56 @@
+[
+  {
+    "_type": "BolusWizard", 
+    "bg": 118, 
+    "bg_target_high": 100, 
+    "_description": "BolusWizard 2016-08-23T18:43:49 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-08-23T18:43:49", 
+    "_body": "395000b44b6408007e000000008664", 
+    "_head": "5b76", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.2, 
+    "_date": "b12b127710", 
+    "bolus_estimate": 3.35, 
+    "bg_target_low": 100, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 3.15, 
+    "carb_input": 57, 
+    "sensitivity": 75
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-08-23T18:43:32 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-08-23T18:43:32", 
+    "_body": "", 
+    "_head": "0a76", 
+    "amount": 118, 
+    "_date": "a02b321710"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-08-23T16:21:08 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-08-23T16:21:08", 
+    "_body": "001000", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.4, 
+    "_date": "8815101710"
+  }, 
+  {
+    "_type": "LowBattery", 
+    "_description": "LowBattery 2016-08-23T16:21:08 head[2], body[0] op[0x19]", 
+    "timestamp": "2016-08-23T16:21:08", 
+    "_body": "", 
+    "_head": "1900", 
+    "_date": "8815101710"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-08-23T16:21:08 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-08-23T16:21:08", 
+    "_body": "", 
+    "_head": "0c06", 
+    "_date": "8815101710"
+  }
+]
