@@ -1,0 +1,189 @@
+[
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-08-24T08:50:59 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-08-24T08:50:59", 
+    "_body": "001000", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.4, 
+    "_date": "bb32081810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-08-24T08:20:59 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-08-24T08:20:59", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "bb14085810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-08-24T08:20:59 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-08-24T08:20:59", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "bb14085810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-08-24T07:55:51 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-08-24T07:55:51", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b337075810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-08-24T07:55:51 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-08-24T07:55:51", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "b337075810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-08-24T07:35:53 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-08-24T07:35:53", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b523075810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-08-24T07:35:53 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-08-24T07:35:53", 
+    "_body": "00", 
+    "_head": "3305", 
+    "rate": 0.125, 
+    "_date": "b523075810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-08-24T07:30:51 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-08-24T07:30:51", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b31e075810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-08-24T07:30:51 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-08-24T07:30:51", 
+    "_body": "00", 
+    "_head": "330a", 
+    "rate": 0.25, 
+    "_date": "b31e075810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-08-24T07:25:52 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-08-24T07:25:52", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b419075810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-08-24T07:25:52 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-08-24T07:25:52", 
+    "_body": "00", 
+    "_head": "3310", 
+    "rate": 0.4, 
+    "_date": "b419075810"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 135, 
+    "bg_target_high": 100, 
+    "_description": "BolusWizard 2016-08-24T07:25:42 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-08-24T07:25:42", 
+    "_body": "3e5000a04b6412009a00000000ac64", 
+    "_head": "5b87", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.45, 
+    "_date": "aa19077810", 
+    "bolus_estimate": 4.3, 
+    "bg_target_low": 100, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 3.85, 
+    "carb_input": 62, 
+    "sensitivity": 75
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-08-24T07:25:04 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-08-24T07:25:04", 
+    "_body": "", 
+    "_head": "0a87", 
+    "amount": 135, 
+    "_date": "8419271810"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-08-24T07:24:30 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-08-24T07:24:30", 
+    "_body": "001000", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.4, 
+    "_date": "9e18071810"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2016-08-24T07:24:29 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-08-24T07:24:29", 
+    "_body": "", 
+    "_head": "1a01", 
+    "_date": "9d18071810"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2016-08-24T07:24:01 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-08-24T07:24:01", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "8118071810"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-08-24T07:23:36 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-08-24T07:23:36", 
+    "_body": "001000", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.4, 
+    "_date": "a417071810"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-08-24T07:23:36 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-08-24T07:23:36", 
+    "_body": "", 
+    "_head": "0c06", 
+    "_date": "a417071810"
+  }, 
+  {
+    "_type": "AlarmPump", 
+    "_description": "AlarmPump 2016-08-24T06:43:00 head[4], body[0] op[0x06]", 
+    "timestamp": "2016-08-24T06:43:00", 
+    "_body": "", 
+    "_head": "060608d9", 
+    "_date": "802b46b810"
+  }
+]
