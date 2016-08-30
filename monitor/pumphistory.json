@@ -1,0 +1,60 @@
+[
+  {
+    "programmed": 3.3, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-08-30T08:06:32 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-08-30T08:06:32", 
+    "_body": "", 
+    "_head": "0100840084000000", 
+    "amount": 3.3, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "a006287e10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 100, 
+    "_description": "BolusWizard 2016-08-30T08:06:32 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-08-30T08:06:32", 
+    "_body": "005000a04b64000000000000000064", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "a006087e10", 
+    "bolus_estimate": 0.0, 
+    "bg_target_low": 100, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 75
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-08-30T08:06:05 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-08-30T08:06:05", 
+    "_body": "001000", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.4, 
+    "_date": "8506081e10"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-08-30T08:06:05 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-08-30T08:06:05", 
+    "_body": "", 
+    "_head": "0c06", 
+    "_date": "8506081e10"
+  }, 
+  {
+    "_type": "AlarmPump", 
+    "_description": "AlarmPump 2016-08-30T08:06:00 head[4], body[0] op[0x06]", 
+    "timestamp": "2016-08-30T08:06:00", 
+    "_body": "", 
+    "_head": "060608d9", 
+    "_date": "800648be10"
+  }
+]
