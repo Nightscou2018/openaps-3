@@ -1,0 +1,60 @@
+[
+  {
+    "_type": "Sara6E", 
+    "_description": "Sara6E 2016-09-01T00:00:00 head[1], body[49] op[0x6e]", 
+    "timestamp": "2016-09-01T00:00:00", 
+    "_body": "0500000000000000028a017a3a01102a00000000007c000000940001000100000000000000000000000000000000000000", 
+    "valid_date": "2016-08-31", 
+    "_head": "6e", 
+    "_date": "9f10"
+  }, 
+  {
+    "_type": "ResultDailyTotal", 
+    "_description": "ResultDailyTotal 2016-09-01T00:00:00 head[5], body[3] op[0x07]", 
+    "timestamp": "2016-09-01T00:00:00", 
+    "_body": "000000", 
+    "valid_date": "2016-08-31", 
+    "_head": "070000028a", 
+    "_date": "9f10"
+  }, 
+  {
+    "programmed": 3.7, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-08-31T20:37:06 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-08-31T20:37:06", 
+    "_body": "", 
+    "_head": "0100940094000000", 
+    "amount": 3.7, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "8625347f10"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-08-31T20:36:43 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-08-31T20:36:43", 
+    "_body": "001000", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.4, 
+    "_date": "ab24141f10"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-08-31T20:36:43 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-08-31T20:36:43", 
+    "_body": "", 
+    "_head": "0c06", 
+    "_date": "ab24141f10"
+  }, 
+  {
+    "_type": "AlarmPump", 
+    "_description": "AlarmPump 2016-08-31T20:17:00 head[4], body[0] op[0x06]", 
+    "timestamp": "2016-08-31T20:17:00", 
+    "_body": "", 
+    "_head": "060608d9", 
+    "_date": "801154bf10"
+  }
+]
