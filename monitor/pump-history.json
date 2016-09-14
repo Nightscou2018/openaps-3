@@ -2,26 +2,26 @@
   {
     "_type": "Sara6E", 
     "_description": "Sara6E 2016-09-14T00:00:00 head[1], body[49] op[0x6e]", 
-    "timestamp": "2016-09-14T00:00:00", 
+    "timestamp": "2016-09-14T00:00:00-05:00", 
     "_body": "0500000000000000012e010255002c0f0000000000000000002c0000000100000000000000000000000000000000000000", 
-    "valid_date": "2016-09-13", 
     "_head": "6e", 
+    "valid_date": "2016-09-13", 
     "_date": "8d90"
   }, 
   {
     "_type": "ResultDailyTotal", 
     "_description": "ResultDailyTotal 2016-09-14T00:00:00 head[5], body[3] op[0x07]", 
-    "timestamp": "2016-09-14T00:00:00", 
+    "timestamp": "2016-09-14T00:00:00-05:00", 
     "_body": "000000", 
-    "valid_date": "2016-09-13", 
     "_head": "070000012e", 
+    "valid_date": "2016-09-13", 
     "_date": "8d90"
   }, 
   {
     "programmed": 1.1, 
     "_type": "Bolus", 
     "_description": "Bolus 2016-09-13T18:38:55 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-09-13T18:38:55", 
+    "timestamp": "2016-09-13T18:38:55-05:00", 
     "_body": "", 
     "_head": "01002c002c000000", 
     "amount": 1.1, 
@@ -32,19 +32,19 @@
   }, 
   {
     "_type": "BasalProfileStart", 
-    "offset": 0, 
     "_description": "BasalProfileStart 2016-09-13T18:38:34 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-09-13T18:38:34", 
+    "timestamp": "2016-09-13T18:38:34-05:00", 
     "_body": "001000", 
     "profile_index": 0, 
     "_head": "7b00", 
     "rate": 0.4, 
+    "offset": 0, 
     "_date": "a266120d10"
   }, 
   {
     "_type": "ClearAlarm", 
     "_description": "ClearAlarm 2016-09-13T18:38:34 head[2], body[0] op[0x0c]", 
-    "timestamp": "2016-09-13T18:38:34", 
+    "timestamp": "2016-09-13T18:38:34-05:00", 
     "_body": "", 
     "_head": "0c06", 
     "_date": "a266120d10"
