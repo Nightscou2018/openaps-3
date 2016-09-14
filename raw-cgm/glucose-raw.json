@@ -1,14 +1,1 @@
-[
-  {
-    "trend_arrow": "SINGLE_UP", 
-    "system_time": "2016-09-14T15:57:16", 
-    "direction": "SingleUp", 
-    "sgv": 158, 
-    "display_time": "2016-09-14T08:58:12", 
-    "date": 1473861492000.0, 
-    "dateString": "2016-09-14T08:58:12", 
-    "device": "openaps://cgm", 
-    "type": "sgv", 
-    "glucose": 158
-  }
-]
+[]
