@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-09-14T15:41:38.964Z", 
+    "created_at": "2016-09-14T15:46:51.506Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,29 +9,15 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-09-14T15:40:42.000Z", 
+        "timestamp": "2016-09-14T15:45:43.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 51.775, 
-      "clock": "2016-09-14T10:37:47"
+      "reservoir": 51.75, 
+      "clock": "2016-09-14T10:42:47"
     }, 
-    "_id": "57d96fb2f68abe14169ddf05", 
+    "_id": "57d970ebf68abe14169ddf06", 
     "openaps": {
-      "suggested": [
-        {
-          "msg": "BG data is too old, or clock set incorrectly Wed Sep 14 2016 08:58:12 GMT-0500 (CDT) vs Wed Sep 14 2016 10:41:09 GMT-0500 (CDT)"
-        }
-      ], 
-      "iob": {
-        "netbasalinsulin": -0.1, 
-        "timestamp": "2016-09-14T15:41:07.000Z", 
-        "activity": -0.0001, 
-        "basaliob": -0.099, 
-        "hightempinsulin": 0, 
-        "bolussnooze": 0, 
-        "iob": -0.099
-      }, 
       "enacted": {
         "bg": 158, 
         "temp": "absolute", 
