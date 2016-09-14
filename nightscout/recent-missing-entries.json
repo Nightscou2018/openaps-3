@@ -10,11 +10,5 @@
     "system_time": "2016-09-14T15:17:38-05:00", 
     "display_time": "2016-09-14T08:18:33-05:00", 
     "glucose": 95
-  }, 
-  {
-    "trend_arrow": "SINGLE_UP", 
-    "system_time": "2016-09-14T15:57:16-05:00", 
-    "display_time": "2016-09-14T08:58:12-05:00", 
-    "glucose": 158
   }
 ]
