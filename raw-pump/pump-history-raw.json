@@ -1,5 +1,26 @@
 [
   {
+    "programmed": 0.85, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-09-16T20:34:25 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-09-16T20:34:25", 
+    "_body": "", 
+    "_head": "0100220022000000", 
+    "amount": 0.85, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "9962347010"
+  }, 
+  {
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-09-16T20:34:07 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-09-16T20:34:07", 
+    "_body": "", 
+    "_head": "0c06", 
+    "_date": "8762141010"
+  }, 
+  {
     "_type": "AlarmPump", 
     "_description": "AlarmPump 2016-09-16T20:31:00 head[4], body[0] op[0x06]", 
     "timestamp": "2016-09-16T20:31:00", 
