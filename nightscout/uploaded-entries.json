@@ -4,5 +4,11 @@
     "system_time": "2016-09-17T04:32:04-05:00", 
     "display_time": "2016-09-16T21:33:00-05:00", 
     "glucose": 122
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "system_time": "2016-09-17T04:47:05-05:00", 
+    "display_time": "2016-09-16T21:48:00-05:00", 
+    "glucose": 118
   }
 ]
