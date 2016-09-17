@@ -7,27 +7,27 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-09-17T02:20:42.000Z", 
+      "timestamp": "2016-09-17T02:25:43.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 19.075, 
-    "clock": "2016-09-16T21:17:45"
+    "reservoir": 19.025, 
+    "clock": "2016-09-16T21:22:46"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 117, 
+      "bg": 118, 
       "temp": "absolute", 
-      "snoozeBG": 120, 
-      "timestamp": "2016-09-17T02:21:08.000Z", 
-      "reason": "Eventual BG 120>=100, adj. req. rate:0.9 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
-      "eventualBG": 120, 
+      "snoozeBG": 121, 
+      "timestamp": "2016-09-17T02:26:16.000Z", 
+      "reason": "Eventual BG 121>=100, adj. req. rate:1.0 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
+      "eventualBG": 121, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 100 Deviation: 3 BGI: 0", 
       "tick": "+1"
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-09-17T02:21:07.000Z", 
+      "timestamp": "2016-09-17T02:26:15.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
@@ -35,23 +35,23 @@
       "iob": 0
     }, 
     "enacted": {
-      "bg": 117, 
+      "bg": 118, 
       "temp": "absolute", 
       "missing": [
         "duration", 
         "rate"
       ], 
-      "timestamp": "2016-09-17T02:21:14.000Z", 
-      "snoozeBG": 120, 
-      "reason": "Eventual BG 120>=100, adj. req. rate:0.9 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
-      "eventualBG": 120, 
+      "timestamp": "2016-09-17T02:26:21.000Z", 
+      "snoozeBG": 121, 
+      "reason": "Eventual BG 121>=100, adj. req. rate:1.0 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
+      "eventualBG": 121, 
       "error": "missing required input fields", 
       "input": {
-        "bg": 117, 
+        "bg": 118, 
         "temp": "absolute", 
-        "snoozeBG": 120, 
-        "reason": "Eventual BG 120>=100, adj. req. rate:0.9 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
-        "eventualBG": 120, 
+        "snoozeBG": 121, 
+        "reason": "Eventual BG 121>=100, adj. req. rate:1.0 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
+        "eventualBG": 121, 
         "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 100 Deviation: 3 BGI: 0", 
         "tick": "+1"
       }, 
