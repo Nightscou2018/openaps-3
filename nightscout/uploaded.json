@@ -145,19 +145,6 @@
     "absolute": 0
   }, 
   {
-    "created_at": "2016-09-16T20:34:07-05:00", 
-    "_type": "ClearAlarm", 
-    "_description": "ClearAlarm 2016-09-16T20:34:07 head[2], body[0] op[0x0c]", 
-    "timestamp": "2016-09-16T20:34:07-05:00", 
-    "notes": "ClearAlarm 723 ", 
-    "_head": "0c06", 
-    "enteredBy": "openaps://medtronic/723", 
-    "_date": "8762141010", 
-    "eventType": "Note", 
-    "_body": "", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/ClearAlarm"
-  }, 
-  {
     "bolus": {
       "programmed": 0.85, 
       "_type": "Bolus", 
@@ -179,6 +166,19 @@
     "duration": 0, 
     "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.85\nDelivered bolus 0.85\nPercent delivered:  100%", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus"
+  }, 
+  {
+    "created_at": "2016-09-16T20:34:07-05:00", 
+    "_type": "ClearAlarm", 
+    "_description": "ClearAlarm 2016-09-16T20:34:07 head[2], body[0] op[0x0c]", 
+    "timestamp": "2016-09-16T20:34:07-05:00", 
+    "notes": "ClearAlarm 723 ", 
+    "_head": "0c06", 
+    "enteredBy": "openaps://medtronic/723", 
+    "_date": "8762141010", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/ClearAlarm"
   }, 
   {
     "created_at": "2016-09-16T20:31:00-05:00", 
