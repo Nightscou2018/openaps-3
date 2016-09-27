@@ -1,0 +1,66 @@
+[
+  {
+    "device": "openaps://raspberrypi", 
+    "created_at": "2016-09-27T13:54:06.323Z", 
+    "pump": {
+      "battery": {
+        "status": "normal", 
+        "voltage": 1.18
+      }, 
+      "status": {
+        "status": "normal", 
+        "timestamp": "2016-09-17T03:25:42.000Z", 
+        "bolusing": false, 
+        "suspended": false
+      }, 
+      "reservoir": 18.45, 
+      "clock": "2016-09-16T22:22:45"
+    }, 
+    "_id": "57ea79fe81d7f220140eca0f", 
+    "openaps": {
+      "suggested": {
+        "bg": 128, 
+        "temp": "absolute", 
+        "snoozeBG": 131, 
+        "timestamp": "2016-09-17T03:21:10.000Z", 
+        "reason": "Eventual BG 131>=100, adj. req. rate:1.2 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
+        "eventualBG": 131, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 100 Deviation: 3 BGI: 0", 
+        "tick": "+1"
+      }, 
+      "iob": {
+        "netbasalinsulin": 0, 
+        "timestamp": "2016-09-17T03:21:09.000Z", 
+        "activity": 0, 
+        "basaliob": 0, 
+        "hightempinsulin": 0, 
+        "bolussnooze": 0, 
+        "iob": 0
+      }, 
+      "enacted": {
+        "bg": 128, 
+        "temp": "absolute", 
+        "snoozeBG": 131, 
+        "timestamp": "2016-09-17T03:21:16.000Z", 
+        "missing": [
+          "duration", 
+          "rate"
+        ], 
+        "reason": "Eventual BG 131>=100, adj. req. rate:1.2 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
+        "eventualBG": 131, 
+        "error": "missing required input fields", 
+        "input": {
+          "bg": 128, 
+          "temp": "absolute", 
+          "snoozeBG": 131, 
+          "reason": "Eventual BG 131>=100, adj. req. rate:1.2 to maxSafeBasal:0.6, temp 0.575 >~ req 0.6U/hr", 
+          "eventualBG": 131, 
+          "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 100 Deviation: 3 BGI: 0", 
+          "tick": "+1"
+        }, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 100 Deviation: 3 BGI: 0", 
+        "tick": "+1"
+      }
+    }
+  }
+]
