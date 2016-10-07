@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-10-06T21:15:24 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-10-06T21:15:24-05:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a45", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 69, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2016-10-06T21:15:24-05:00", 
+    "_date": "988f356610", 
+    "glucose": 69
+  }, 
+  {
+    "_type": "Prime", 
+    "_description": "Prime 2016-10-06T21:11:04 head[5], body[0] op[0x03]", 
+    "notes": "Prime 723 ", 
+    "timestamp": "2016-10-06T21:11:04-05:00", 
+    "_body": "", 
+    "_head": "0300030003", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 0.3, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
+    "eventType": "Note", 
+    "fixed": 0.3, 
+    "type": "fixed", 
+    "created_at": "2016-10-06T21:11:04-05:00", 
+    "_date": "848b150610"
+  }, 
+  {
+    "_type": "Prime", 
+    "_description": "Prime 2016-10-06T21:03:40 head[5], body[0] op[0x03]", 
+    "notes": "Prime 723 ", 
+    "timestamp": "2016-10-06T21:03:40-05:00", 
+    "_body": "", 
+    "_head": "030000003e", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 6.2, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
+    "eventType": "Note", 
+    "fixed": 0, 
+    "type": "manual", 
+    "created_at": "2016-10-06T21:03:40-05:00", 
+    "_date": "a883350610"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-10-06T20:57:04 head[2], body[0] op[0x21]", 
+    "notes": "Rewind 723 ", 
+    "timestamp": "2016-10-06T20:57:04-05:00", 
+    "_body": "", 
+    "_head": "2100", 
+    "enteredBy": "openaps://medtronic/723", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind", 
+    "eventType": "Note", 
+    "created_at": "2016-10-06T20:57:04-05:00", 
+    "_date": "84b9140610"
+  }
+]
