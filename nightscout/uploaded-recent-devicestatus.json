@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-10-08T11:42:04.886Z", 
+    "created_at": "2016-10-08T11:51:44.761Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,26 +9,47 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-08T11:40:44.000Z", 
+        "timestamp": "2016-10-08T11:50:44.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
       "reservoir": 73.475, 
-      "clock": "2016-10-08T06:41:09"
+      "clock": "2016-10-08T06:51:09"
     }, 
-    "_id": "57f8db8cfe0a82e02aeb5c3f", 
+    "_id": "57f8ddd0fe0a82e02aeb5c40", 
     "openaps": {
-      "enacted": {
-        "bg": 114, 
+      "suggested": {
+        "bg": 105, 
         "temp": "absolute", 
-        "snoozeBG": 106, 
+        "snoozeBG": 87, 
+        "timestamp": "2016-10-08T11:51:10.000Z", 
+        "reason": "Eventual BG 87<135, setting -2.18U/hr", 
+        "rate": 0, 
+        "eventualBG": 87, 
+        "duration": 30, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 135 Deviation: -18 BGI: 0", 
+        "tick": -2
+      }, 
+      "iob": {
+        "netbasalinsulin": 0, 
+        "timestamp": "2016-10-08T11:51:08.000Z", 
+        "activity": 0, 
+        "basaliob": 0, 
+        "hightempinsulin": 0, 
+        "bolussnooze": 0, 
+        "iob": 0
+      }, 
+      "enacted": {
+        "bg": 105, 
+        "temp": "absolute", 
+        "snoozeBG": 87, 
         "recieved": true, 
         "rate": 0, 
-        "reason": "Eventual BG 106<135, setting -1.167U/hr", 
-        "eventualBG": 106, 
-        "timestamp": "2016-10-08T11:36:16.000Z", 
+        "reason": "Eventual BG 87<135, setting -2.18U/hr", 
+        "eventualBG": 87, 
+        "timestamp": "2016-10-08T11:51:16.000Z", 
         "duration": 30, 
-        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 135 Deviation: -8 BGI: 0", 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 75, Target: 135 Deviation: -18 BGI: 0", 
         "tick": -2
       }
     }
